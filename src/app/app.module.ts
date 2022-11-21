@@ -4,17 +4,21 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 //Componentes
-import { NavBarComponent } from './views/nav-bar/nav-bar.component';
+import { ToolbarComponent } from './views/toolbar/toolbar.component';
+import { NavbarComponent } from './views/navbar/navbar.component';
+import { LayoutComponent } from './views/layout/layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    ToolbarComponent,
+    NavbarComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: '', component: NavBarComponent},
+      {path: '', component: LayoutComponent},
     ])
   ],
   providers: [],
