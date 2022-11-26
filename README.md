@@ -1,11 +1,10 @@
-# CoderHouse
-
->>Formato: Se debe entregar un proyecto con el formato ANGULAR-CLI. Lo vamos a nombrar como  “Componentes+Apellido”. 
-
->>Sugerencia: Utiliza ANGULAR-CLI para generar un proyecto con componentes personalizados.
+# CoderHouse -DESAFIO 2
 
 
 ## Consigna
 
->> Crear un layout general con menú a la izquierda, un toolbar y un área de contenido. Cada uno de los apartados del layout será un componente independiente y tendrá su propia hoja de estilos y contenido html. Todos ellos integrados en el app.component.html
+>> Entregar un proyecto que dado un array de alumnos los muestre en forma de lista y aplique diferentes estilos según algunas condiciones
 
+## Aspectos a incluir en el entregable:
+>>Se espera la entrega de un proyecto configurado y funcional utilizando creación de componentes.
+>>Recuerda hacer uso correcto de directivas (estructurales y de atributo) y pipes.

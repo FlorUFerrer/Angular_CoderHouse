@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  bandera:boolean=false;
+constructor() { }
+
+change(){
+  this.bandera = ! this.bandera
+}
+
 
   ngOnInit(): void {
   }

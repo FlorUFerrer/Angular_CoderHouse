@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './views/toolbar/toolbar.component';
 import { NavbarComponent } from './views/navbar/navbar.component';
 import { LayoutComponent } from './views/layout/layout.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LayoutComponent } from './views/layout/layout.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot([
       {path: '', component: LayoutComponent},
     ])
